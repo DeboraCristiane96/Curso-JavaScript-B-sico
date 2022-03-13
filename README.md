@@ -1,1 +1,1 @@
-# Curso-JavaScript-Basico
+# Curso-JavaScript-Básico
