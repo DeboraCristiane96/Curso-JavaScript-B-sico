@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio IMC</title>
+    
+</head>
+<body>
+    <section class="container">
+        <h1 class="title"> Calculadora do IMC</h1>
+        <hr>
+        <div class="classificacao"> 
+            <p>
+            <strong>Resultado</strong>	<br>
+            Abaixo de 20	<br>
+            Entre 20 e 25	<br>
+            Entre 25 e 30	<br>
+            Entre 30 e 35	<br>
+            Entre 35 e 40	<br>
+            Acima de 50	
+            </p>
+
+            <p>
+            <strong>Situação</strong> <br>
+            Abaixo do peso <br>
+            Peso ideal <br>
+            Sobrepeso <br>
+            Obesidade moderada <br>
+            Obesidade móbida <br>
+            Super-Obesidade <br>
+            </p>
+        </div>
+            <form action="/" id="form" method="POST">
+                <label for="peso">Qual o seu peso:</label>
+                <input type="text" id="peso">
+
+                <label for="altura">Qual a sua altura:</label>
+                <input type="text" id="altura">
+
+                <button type="submit">Calcular IMC</button>
+            </form>
+         <div id="resultado"></div>
+    </section>
+    <label><script src="script.js"></script></label>
+</body>
+</html>

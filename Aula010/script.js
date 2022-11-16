@@ -9,7 +9,8 @@ function comparaNumeros(num1, num2) {
 	return `${primeiraFrase} ${segundaFrase}`;
 }
 
-function criaPrimeiraFrase(num1, num2) {
+function criaPrimeiraFrase(num1, num2) { 
+
 	let primeiraFrase = `Os números ${num1} e ${num2}`;
 	let simNao = 'não';
 
@@ -21,6 +22,7 @@ function criaPrimeiraFrase(num1, num2) {
 }
 
 function criaSegundaFrase(num1, num2) {
+
 	const soma = num1 + num2;
 	let comparaDez = 'menor do que';
 	let comparaVinte = 'menor do que';
@@ -42,4 +44,4 @@ function criaSegundaFrase(num1, num2) {
 	return `Sua soma é ${soma}, que é ${comparaDez} 10 e ${comparaVinte}  20.`;
 }
 
-console.log(comparaNumeros(10, 10));
+console.log(comparaNumeros(20, 10));

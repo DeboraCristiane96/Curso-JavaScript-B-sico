@@ -1,5 +1,7 @@
-//
-/*tipos primitivos
+//comentarios em Javascript
+// + contatenação
+
+//tipos primitivos
 
 //boolean
 var vOuF = false ;
@@ -25,8 +27,8 @@ console.log(variavel2);
 
 const variavel3 = 'Anna';
 console.log(variavel3);
-*/
- //Escoopo
+
+//Escopo
 
  var escopoGlobal = 'global';
  console.log(escopoGlobal);

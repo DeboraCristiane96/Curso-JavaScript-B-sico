@@ -1,1 +1,1 @@
-console.log("Um pouco de Javascript");
+alert("Um pouco de Javascript");
